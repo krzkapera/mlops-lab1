@@ -16,7 +16,7 @@ def train_model(data):
     )
 
     model = LogisticRegression(random_state=0, max_iter=500)
-    model.fit(X, y)
+    model.fit(X_train, y_train)
 
     return model
 
